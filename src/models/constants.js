@@ -1,0 +1,1 @@
+export const targetURL = `http://${window.location.hostname}:3000`;

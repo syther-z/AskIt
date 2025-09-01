@@ -1,0 +1,36 @@
+:root {
+    --navbar-height: 70px;
+    --primary-color: #26394b;
+    --min-page-size: calc(100vh - var(--navbar-height));
+    --select-color: #0167ff;
+    /* --primary-color: rgb(49, 49, 49); */
+}
+
+.navbar-shadow {
+    box-shadow: 0px 2px 5px 0.1px rgba(22, 22, 22, 0.29);
+}
+
+.question-card-shadow {
+    box-shadow: 1px 1px 5px 0.1px rgba(22, 22, 22, 0.29);
+    border-radius: 10px;
+}
+
+.expand {
+    justify-self: flex-end;
+}
+
+.heading-h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.heading-h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.alert-show{
+    transform: translateY(200px) !important;
+}

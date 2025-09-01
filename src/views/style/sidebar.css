@@ -1,0 +1,31 @@
+
+
+.sidebar-small{
+    position: absolute;
+    transform: translateX(-400px);
+    transition: all .5s ease-in-out;
+}
+
+
+.sidebar-small-show{
+    transform: translateX(0);
+    transition: all .5s ease-in-out;
+}
+
+.sidebar-background-show{
+    visibility: visible !important;
+}
+
+.sidebar-item-active{
+    background-color: #0167ff;
+    animation: item-load .5s linear;
+}
+
+@keyframes item-load {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+}
