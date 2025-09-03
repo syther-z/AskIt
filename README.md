@@ -1,6 +1,6 @@
 # AskIt  
 
-<img src="https://github.com/syther-z/AskIt/blob/main/home.png?raw=true" alt="Thumbnail" width="40%"/>
+<img src="https://github.com/syther-z/AskIt/blob/main/home.png?raw=true" alt="Thumbnail" width="400px"/>
 
 A **QnA web platform** built with **React**.  
 This is the initial build, so many features are still under development. Stay tuned for updates! 🚀  
@@ -32,7 +32,7 @@ This is the initial build, so many features are still under development. Stay tu
 
 
 **Desktop View**  
-<img src="https://github.com/syther-z/AskIt/blob/main/s5.png?raw=true" alt="Thumbnail" width="80%"/>
+<img src="https://github.com/syther-z/AskIt/blob/main/s5.png?raw=true" alt="Thumbnail" width="100%"/>
 
 
 
