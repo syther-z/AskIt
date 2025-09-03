@@ -28,7 +28,7 @@ This is the initial build, so many features are still under development. Stay tu
 ## 📸 Screenshots  
 
 **Mobile View**  
-<img src="https://github.com/syther-z/AskIt/blob/main/s2.png?raw=true" alt="Thumbnail" width="25%"/> <img src="https://github.com/syther-z/AskIt/blob/main/s4.png?raw=true" alt="Thumbnail" width="25%"/>
+<img src="https://github.com/syther-z/AskIt/blob/main/s2.png?raw=true" alt="Thumbnail" width="25%"/> <img src="https://github.com/syther-z/AskIt/blob/main/s4.png?raw=true" alt="Thumbnail" width="25%"/> <img src="https://github.com/syther-z/AskIt/blob/main/s3.png?raw=true" alt="Thumbnail" width="25%"/>
 
 
 **Desktop View**  
