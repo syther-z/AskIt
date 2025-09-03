@@ -1,12 +1,55 @@
-# React + Vite
+# AskIt  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![AskIt Thumbnail](./thumbnail.png)  
 
-Currently, two official plugins are available:
+A **QnA web platform** built with **React**.  
+This is the initial build, so many features are still under development. Stay tuned for updates! 🚀  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📝 Post questions  
+- 💬 Answer questions  
+- ❤️ Like posts  
+- ➕ Follow accounts  
+- 📱 Responsive UI with **mobile-first design**  
+
+---
+
+## 🛠️ Tech Stack & Tools  
+
+- ⚛️ React  
+- 🔀 React Router  
+- 📦 Redux & Redux Toolkit  
+- 💙 Tailwind CSS
+---
+
+## 📸 Screenshots  
+
+**Desktop View**  
+![Desktop Screenshot](./screenshot-desktop.png)  
+
+**Mobile View**  
+![Mobile Screenshot](./screenshot-mobile.png)  
+
+---
+
+## 🚀 Roadmap  
+
+- 👤 Profile customization  
+- 🔔 Notifications  
+- 🌐 Deploy live version  
+
+---
+
+## 🤝 Contributing  
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to open a PR or issue anytime.  
+
+---
+
+## 📜 License  
+
+This project is licensed under the **MIT License**.  
