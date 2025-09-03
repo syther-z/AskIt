@@ -10,7 +10,7 @@ const ProfileIcon = ({name, size = 10}) => {
     minWidth: size +'px',
     minHeight: size +'px',
     borderRadius: '50%',
-   }}>{name.substring(0, 2).toUpperCase()}</div> : <img src="user.png" width={size} alt="profile" />
+   }}>{name.substring(0, 2).toUpperCase()}</div> : <img src="/user.png" width={size} alt="profile" />
     
    
 )

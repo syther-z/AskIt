@@ -61,3 +61,23 @@ export const getQuestion = async (qid) => {
     }
     return null;
 }
+
+
+export const handleUpvote = async (qid) => {
+    const sessionid = window.localStorage.getItem('sessionid');
+    try {
+        const res = await fetch(`${targetURL}/question/${qid}/upvote`, {
+            method: 'PATCH',
+            headers: {
+                "Accept": '*/*',
+                sessionid: sessionid ?? ''
+            },
+        });
+        if(res.status == 200){
+            return true;
+        }
+    } catch (e) {
+        console.log(e);
+    }
+    return false;
+}

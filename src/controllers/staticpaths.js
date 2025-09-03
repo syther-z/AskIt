@@ -1,10 +1,18 @@
 export const sidebarOptions = [
    {
       path: '/',
-      title: 'Home'
+      title: 'Explore'
    },
    {
       path: '/ask',
       title: 'Ask Question'
    },
+   {
+      path: '/following',
+      title: 'Following'
+   },
+   {
+      path: '/followers',
+      title: 'Followers'
+   }
 ];

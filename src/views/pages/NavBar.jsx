@@ -2,11 +2,12 @@ import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { toggle } from '../../controllers/states/slices/sidebarslice';
 import ProfileIcon from '../components/ProfileIcon';
+import { useNavigate } from 'react-router-dom';
 
 const NavBar = () => {
   const userdetails = useSelector((state) => state.userDetail);
   const dispatch = useDispatch();
-
+  const navigate = useNavigate();
   return (
     <nav className="bg-white w-full h-[70px] flex items-center justify-between px-4 border-b border-gray-300 navbar-shadow overflow-hidden gap-2">
       
@@ -34,7 +35,14 @@ const NavBar = () => {
         </div>
 
         {/* Profile Icon */}
+        <button onClick={(e)=>{
+          e.stopPropagation();
+          if(userdetails.email !== 'Login')
+             navigate(`/profile/${userdetails.email}`);
+           else navigate('/signin');
+        }}>
         <ProfileIcon name={userdetails.email != 'Login' ? userdetails.username : undefined} size={40} />
+        </button>
       </div>
     </nav>
   );

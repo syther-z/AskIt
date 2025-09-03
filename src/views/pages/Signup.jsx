@@ -42,7 +42,7 @@ const Signup = () => {
     <Page>
         <form onSubmit={onSubmit} className="w-full flex justify-center items-center flex-col gap-[50px]">
         <div className="mt-[30px] t-[30px] heading-h1">Welcome</div>
-        <div className="sign-up page-load-animation">
+        <div className="sign-up page-load-animation question-card-shadow">
             <div className="w-full h-4/5 flex justify-center items-center flex-col gap-[50px]">
             <div className="heading-h2">Sign Up</div>
 

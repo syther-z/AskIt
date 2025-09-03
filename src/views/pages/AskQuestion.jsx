@@ -34,7 +34,7 @@ const AskQuestion = () => {
   };
 
   return (
-    <div className="flex justify-center h-[var(--min-page-size)] w-full p-[25px] font-[Inter] overflow-y-scroll">
+    <div className="flex justify-center h-[var(--min-page-size)] w-full p-[25px] font-[Inter] overflow-y-scroll page-load-animation">
       <div className="bg-white question-card-shadow h-fit p-6 w-full max-w-3xl">
         <h2 className="heading-h2 font-semibold mb-6">Ask a Question</h2>
 

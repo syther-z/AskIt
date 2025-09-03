@@ -20,13 +20,15 @@ const HomePage = () => {
 
 
   return (
-    <section id='homepage' className='' style={{height: 'calc(100vh - var(--navbar-height)'}}>
+    <section id='homepage' className='page-load-animation' style={{height: 'calc(100vh - var(--navbar-height)'}}>
 
 
-      <div className={`w-full h-full  p-[20px] m-0 overflow-y-scroll`}>
-      {feed.map((item) => {
-        return <QuestionCard props={item}/>
-      })}
+      <div className={`w-full h-full flex items-center flex-col p-[20px] m-0 overflow-y-scroll`}>
+      {
+        feed.length > 0 ? feed.map((item) => {
+          return <QuestionCard props={item}/>
+        }) : <div className='w-full h-full flex justify-center items-center text-gray-500'>No questions yet</div>
+      }
       </div>
        
       

@@ -2,7 +2,9 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const tempData = {
     username: 'Guest',
-    email: 'Login'
+    email: 'Login',
+    following: [],
+    followers: []
 }
 
 const userDetailSlice = createSlice({
@@ -12,9 +14,14 @@ const userDetailSlice = createSlice({
         update: (state, data) => {
             state.username = data.payload.username;
             state.email = data.payload.email;
+        },
+
+        updateFollow: (state, data) => {
+            state.followers = data.payload.followers;
+            state.following = data.payload.following;
         }
     }
 });
 
-export const { update } = userDetailSlice.actions;
+export const { update, updateFollow } = userDetailSlice.actions;
 export default userDetailSlice.reducer;
